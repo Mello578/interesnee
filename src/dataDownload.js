@@ -2,29 +2,33 @@
  * Created by Mello on 28.08.2017.
  */
 
-function dataDownload(data, createTable) {
+let localStorageData = (item) => {
+    return JSON.parse(localStorage.getItem(item));
+};
 
+function dataDownload(data) {
     if (!localStorage.getItem(data)) {
         let xhr = new XMLHttpRequest();
         let nameArray = data === 'departments' ? 'Отдел' : 'Сотрудники';
-        new Promise((resolve, reject) => {
-            xhr.open('GET', '../../' + data + '.json', true);
+        return new Promise((resolve, reject) => {
+            xhr.open('GET', '../' + data + '.json', true);
             xhr.onloadend = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
-                    resolve();
-                }else{
+                    resolve(xhr.responseText);
+                } else {
                     reject(xhr.status);
                 }
             };
             xhr.send(null);
-        }).then(
-            () => {
-                localStorage.setItem(data, xhr.responseText);
-                createTable();
-            }, error => {
-                alert('Ошибка загрузки списка ' + nameArray + '. Код ошибки - ' + error);
-            }
-        );
+        }).then((text) => {
+            localStorage.setItem(data, text);
+
+            return localStorageData(data);
+        }, error => {
+            alert('Ошибка загрузки списка ' + nameArray + '. Код ошибки - ' + error);
+        });
+    } else {
+        return Promise.resolve(localStorageData(data));
     }
 }
 

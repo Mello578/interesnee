@@ -2,7 +2,6 @@
  * Created by Mello on 13.07.2017.
  */
 
-
 import React from "react";
 import {render} from "react-dom";
 import 'bootstrap/dist/js/bootstrap.js';
@@ -15,20 +14,32 @@ import {Table} from './component/table';
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <div className="container">
+            <div className="workingField col-md-10 col-md-offset-1">
+                <div className="container listEmployees col-md-offset-1">
                     <div className="row">
-                        <div className="col-md-10 col-md-offset-2">
-                            <h1>Список сотрудников организации</h1>
+                        <div>
+                            <h1 className="textFont">Список сотрудников организации</h1>
                         </div>
                     </div>
                 </div>
-                <Table/>
+                <Table
+                    departments={this.props.departments}
+                    employees={this.props.employees}
+                />
             </div>
-
-
         )
     }
 }
 
-render(<App/>, window.document.getElementById('content'));
+(() => {
+    const dataDownload = require('./dataDownload');
+
+    Promise.all([
+        dataDownload('departments'),
+        dataDownload('employees')
+    ]).then(([departments, employees]) => {
+        render(<App departments={departments} employees={employees}/>,
+            document.getElementById('content'));
+    })
+
+})();

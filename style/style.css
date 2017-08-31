@@ -1,27 +1,48 @@
-.topBuffer {
-    margin-top: 90px;
+body {
+    background: #1b1b1b;
 }
 
-.bufferTable {
+.workingField {
+    border: 1px solid #cccccc;
+    background: #f6f6f6;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+
+.listEmployees {
+    margin-top: 50px;
+}
+
+.bufferTable, .topBuffer {
     margin-top: 20px;
 }
 
 .filterStyle {
-    width: 250px;
-}
-
-.buttonBorder {
-    border: 3px solid #494949;
-    height: 30px;
-    padding: inherit;
+    width: 251px;
+    height: 45px;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+    border: 1px solid #cccccc;
 
 }
 
 .buttonStyle {
-    border-radius: 10px;
-    font-size: 20px;
-    width: 150px;
+
+    font-size: 14px;
+    width: 177px;
+    height: 45px;
     line-height: 5px;
+    background: #ff4342;
+    font-family: "Noto Sans", Arial, sans-serif;
+    color: white;
+    border-radius: 0;
+}
+
+.textFont {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
 }
 
 .tableCaption {
@@ -32,7 +53,7 @@
     clear: both;
     text-align: right;
     line-height: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 label {
@@ -48,7 +69,6 @@ label {
     border-radius: 10px;
 }
 
-
 .alertField {
     box-shadow: 0 0 10px #ff1842;
 }
@@ -57,6 +77,84 @@ label {
     margin-right: 10px;
 }
 
-.flRight{
+.flRight {
+    float: right;
+}
+
+td {
+    width: auto;
+}
+
+#captionEmployees {
+    background: -moz-linear-gradient(#c7c7c7, #BDBDBD);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#c7c7c7), to(#BDBDBD));
+}
+
+#captionQuantity {
+    width: 50%;
+    float: right;
+    margin-right: -20%;
+}
+
+p {
+    margin: 0 63px;
+    float: right;
+}
+
+.indentTable {
+    margin-bottom: 20px;
+}
+
+.buttonDepartments {
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    background: -moz-linear-gradient(#e4e4e4, #d5d5d5);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e4e4e4), to(#d5d5d5));
+    border: none;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px;
+}
+
+.imgDepart {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.employees {
+    /*right: 100%;*/
+    margin-left: 3%;
+
+}
+
+.employeesHidden{
+    height: 0;
+    overflow: hidden;
+}
+
+.employeesOpened {
+    height: auto;
+    overflow: visible;
+    glyphicon : glyphicon-menu-down;
+}
+
+.border {
+    background: white;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+}
+
+td{
+    width: inherit;
+}
+
+h4{
+    margin: -2px 30px 10px;
+
+}
+.quantityEmployees{
     float: right;
 }
