@@ -34573,7 +34573,7 @@ exports = module.exports = __webpack_require__(86)(undefined);
 
 
 // module
-exports.push([module.i, "body {\r\n    background: #1b1b1b;\r\n}\r\n\r\n.workingField {\r\n    border: 1px solid #cccccc;\r\n    background: #f6f6f6;\r\n    margin-top: 70px;\r\n    padding-bottom: 40px;\r\n}\r\n\r\n.listEmployees {\r\n    margin-top: 50px;\r\n}\r\n\r\n.bufferTable, .topBuffer {\r\n    margin-top: 20px;\r\n}\r\n\r\n.filterStyle {\r\n    width: 251px;\r\n    height: 45px;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 12px;\r\n    padding-left: 20px;\r\n    border: 1px solid #cccccc;\r\n\r\n}\r\n\r\n.buttonStyle {\r\n\r\n    font-size: 14px;\r\n    width: 177px;\r\n    height: 45px;\r\n    line-height: 5px;\r\n    background: #ff4342;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    color: white;\r\n    border-radius: 0;\r\n}\r\n\r\n.textFont {\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 34px;\r\n    font-weight: 600;\r\n}\r\n\r\n.tableCaption {\r\n    background: #ababab;\r\n}\r\n\r\n.field {\r\n    clear: both;\r\n    text-align: right;\r\n    line-height: 25px;\r\n    margin-top: 10px;\r\n}\r\n\r\nlabel {\r\n    float: left;\r\n    padding-right: 10px;\r\n\r\n}\r\n\r\n.modal-content {\r\n    float: left;\r\n    padding: 0px 40px 10px;\r\n    border: 2px solid #363636;\r\n    border-radius: 10px;\r\n}\r\n\r\n.alertField {\r\n    box-shadow: 0 0 10px #ff1842;\r\n}\r\n\r\n.iRight {\r\n    margin-right: 10px;\r\n}\r\n\r\n.flRight {\r\n    float: right;\r\n}\r\n\r\ntd {\r\n    width: auto;\r\n}\r\n\r\n#captionEmployees {\r\n    background: -moz-linear-gradient(#c7c7c7, #BDBDBD);\r\n    background: -webkit-gradient(linear, 0 0, 0 100%, from(#c7c7c7), to(#BDBDBD));\r\n}\r\n\r\n#captionQuantity {\r\n    width: 50%;\r\n    float: right;\r\n    margin-right: -20%;\r\n}\r\n\r\np {\r\n    margin: 0 63px;\r\n    float: right;\r\n}\r\n\r\n.indentTable {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.buttonDepartments {\r\n    width: 100%;\r\n    height: 40px;\r\n    text-align: left;\r\n    background: -moz-linear-gradient(#e4e4e4, #d5d5d5);\r\n    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e4e4e4), to(#d5d5d5));\r\n    border: none;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 16px;\r\n    font-weight: 600;\r\n    padding: 9px;\r\n}\r\n\r\n.imgDepart {\r\n    width: 20px;\r\n    height: 20px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.employees {\r\n    /*right: 100%;*/\r\n    margin-left: 3%;\r\n\r\n}\r\n\r\n.employeesHidden{\r\n    height: 0;\r\n    overflow: hidden;\r\n}\r\n\r\n.employeesOpened {\r\n    height: auto;\r\n    overflow: visible;\r\n    glyphicon : glyphicon-menu-down;\r\n}\r\n\r\n.border {\r\n    background: white;\r\n    border: 1px solid #cccccc;\r\n    overflow: hidden;\r\n}\r\n\r\ntd{\r\n    width: inherit;\r\n}\r\n\r\nh4{\r\n    margin: -2px 30px 10px;\r\n\r\n}\r\n.quantityEmployees{\r\n    float: right;\r\n}\r\n", ""]);
+exports.push([module.i, "body {\r\n    background: #1b1b1b;\r\n}\r\n\r\n.workingField {\r\n    border: 1px solid #cccccc;\r\n    background: #f6f6f6;\r\n    margin-top: 70px;\r\n    padding-bottom: 40px;\r\n}\r\n\r\n.listEmployees {\r\n    margin-top: 50px;\r\n}\r\n\r\n.bufferTable, .topBuffer {\r\n    margin-top: 20px;\r\n}\r\n\r\n.table-filters{\r\n    float: none;\r\n    margin-left: 20px;\r\n    font-size: 18px;\r\n}\r\n\r\n.filterStyle {\r\n    width: 251px;\r\n    height: 45px;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 12px;\r\n    padding-left: 20px;\r\n    border: 1px solid #cccccc;\r\n\r\n}\r\n\r\n.buttonStyle {\r\n\r\n    font-size: 14px;\r\n    width: 177px;\r\n    height: 45px;\r\n    line-height: 5px;\r\n    background: #ff4342;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    color: white;\r\n    border-radius: 0;\r\n}\r\n\r\n.textFont {\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 34px;\r\n    font-weight: 600;\r\n}\r\n\r\n.tableCaption {\r\n    background: #ababab;\r\n}\r\n\r\n.field {\r\n    clear: both;\r\n    text-align: right;\r\n    line-height: 25px;\r\n    margin-top: 10px;\r\n}\r\n\r\nlabel {\r\n    float: left;\r\n    padding-right: 10px;\r\n\r\n}\r\n\r\n.modal-content {\r\n    float: left;\r\n    padding: 0px 40px 10px;\r\n    border: 2px solid #363636;\r\n    border-radius: 10px;\r\n}\r\n\r\n.alertField {\r\n    box-shadow: 0 0 10px #ff1842;\r\n}\r\n\r\n.iRight {\r\n    margin-right: 10px;\r\n}\r\n\r\n.flRight {\r\n    float: right;\r\n}\r\n\r\ntd {\r\n    width: auto;\r\n}\r\n\r\n#captionEmployees {\r\n    background: -moz-linear-gradient(#c7c7c7, #BDBDBD);\r\n    background: -webkit-gradient(linear, 0 0, 0 100%, from(#c7c7c7), to(#BDBDBD));\r\n}\r\n\r\n#captionQuantity {\r\n    width: 50%;\r\n    float: right;\r\n    margin-right: -20%;\r\n}\r\n\r\np {\r\n    margin: 0 63px;\r\n    float: right;\r\n}\r\n\r\n.indentTable {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.buttonDepartments {\r\n    width: 100%;\r\n    height: 40px;\r\n    text-align: left;\r\n    background: -moz-linear-gradient(#e4e4e4, #d5d5d5);\r\n    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e4e4e4), to(#d5d5d5));\r\n    border: none;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 16px;\r\n    font-weight: 600;\r\n    padding: 9px;\r\n}\r\n\r\n.imgDepart {\r\n    width: 20px;\r\n    height: 20px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.employees {\r\n    /*right: 100%;*/\r\n    margin-left: 3%;\r\n\r\n}\r\n\r\n.employeesHidden{\r\n    height: 0;\r\n    overflow: hidden;\r\n}\r\n\r\n.employeesOpened {\r\n    height: auto;\r\n    overflow: visible;\r\n    glyphicon : glyphicon-menu-down;\r\n}\r\n\r\n.border {\r\n    background: white;\r\n    border: 1px solid #cccccc;\r\n    overflow: hidden;\r\n}\r\n\r\ntd{\r\n    width: inherit;\r\n}\r\n\r\nh4{\r\n    margin: -2px 30px 10px;\r\n\r\n}\r\n.quantityEmployees{\r\n    float: right;\r\n}\r\n\r\n.checkboxDepart{\r\nmargin-top: 3px;\r\n    cursor:pointer;\r\n    width:19px;\r\n    height:19px;\r\n}", ""]);
 
 // exports
 
@@ -34589,127 +34589,123 @@ exports.push([module.i, "body {\r\n    background: #1b1b1b;\r\n}\r\n\r\n.working
 
 
 
-Object.defineProperty(exports, "__esModule", {
+Object.defineProperty(exports, '__esModule', {
     value: true
 });
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = __webpack_require__(52);
 
 var _react2 = _interopRequireDefault(_react);
 
-var Employees = (function (_React$Component) {
-    _inherits(Employees, _React$Component);
-
-    function Employees() {
-        _classCallCheck(this, Employees);
-
-        _get(Object.getPrototypeOf(Employees.prototype), "constructor", this).apply(this, arguments);
-    }
-
-    _createClass(Employees, [{
-        key: "render",
-        value: function render() {
-            var employees = this.props.employees;
-
-            return;
-        }
-    }]);
-
-    return Employees;
-})(_react2["default"].Component);
-
-var EmployeesList = (function (_React$Component2) {
-    _inherits(EmployeesList, _React$Component2);
+var EmployeesList = (function (_React$Component) {
+    _inherits(EmployeesList, _React$Component);
 
     function EmployeesList() {
         _classCallCheck(this, EmployeesList);
 
-        _get(Object.getPrototypeOf(EmployeesList.prototype), "constructor", this).call(this);
+        _get(Object.getPrototypeOf(EmployeesList.prototype), 'constructor', this).call(this);
         this.state = {
             isOpened: false,
-            glyph: ''
+            glyph: '',
+            sortEmploy: false
         };
     }
 
     _createClass(EmployeesList, [{
-        key: "toggleOpened",
+        key: 'toggleOpened',
         value: function toggleOpened() {
+            document.getElementById('filter').value = '';
             this.setState({
                 isOpened: !this.state.isOpened,
                 glyph: !this.state.glyph
             });
         }
     }, {
-        key: "render",
-        value: function render() {
+        key: 'sortEmploy',
+        value: function sortEmploy(employ) {
             var _this = this;
+
+            employ.sort(function (a, b) {
+                return !_this.state.sortEmploy ? a['name'] < b['name'] ? 1 : -1 : a['name'] > b['name'] ? 1 : -1;
+            });
+            this.setState({
+                sortEmploy: !this.state.sortEmploy
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
 
             var _props = this.props;
             var employees = _props.employees;
             var name = _props.name;
 
-            return _react2["default"].createElement(
-                "div",
+            return _react2['default'].createElement(
+                'div',
                 null,
-                _react2["default"].createElement(
-                    "button",
-                    { className: "col-md-10 buttonDepartments",
+                _react2['default'].createElement(
+                    'button',
+                    { className: 'col-md-10 buttonDepartments',
                         onClick: function () {
-                            return _this.toggleOpened();
+                            return _this2.toggleOpened();
                         } },
                     name,
-                    _react2["default"].createElement("h4", {
+                    _react2['default'].createElement('h4', {
                         className: this.state.glyph ? 'glyphicon glyphicon-menu-down' : '' })
                 ),
-                _react2["default"].createElement(
-                    "div",
+                _react2['default'].createElement(
+                    'div',
                     {
                         className: 'employeesHidden ' + (this.state.isOpened ? 'employeesOpened' : '') },
-                    _react2["default"].createElement(
-                        "table",
+                    _react2['default'].createElement(
+                        'table',
                         {
-                            className: "table table-bordered table-striped table-condensed table-hover bufferTable employees" },
-                        _react2["default"].createElement(
-                            "thead",
+                            className: 'table table-bordered table-striped table-condensed table-hover bufferTable employees' },
+                        _react2['default'].createElement(
+                            'thead',
                             null,
-                            _react2["default"].createElement(
-                                "tr",
-                                { id: "captionEmployees" },
-                                _react2["default"].createElement(
-                                    "td",
-                                    null,
-                                    "Сотрудники. ",
-                                    _react2["default"].createElement(
-                                        "p",
-                                        { className: "" },
-                                        "Кол-во: #"
+                            _react2['default'].createElement(
+                                'tr',
+                                { id: 'captionEmployees' },
+                                _react2['default'].createElement(
+                                    'td',
+                                    { onClick: function () {
+                                            return _this2.sortEmploy(employees);
+                                        } },
+                                    'Сотрудники. ',
+                                    _react2['default'].createElement(
+                                        'p',
+                                        { className: '' },
+                                        'Кол-во: ',
+                                        employees.length
                                     )
                                 )
                             )
                         ),
-                        _react2["default"].createElement(
-                            "tbody",
+                        _react2['default'].createElement(
+                            'tbody',
                             null,
                             employees.map(function (_ref, i) {
                                 var id = _ref.id;
-                                var fio = _ref.fio;
-                                return _react2["default"].createElement(
-                                    "tr",
+                                var name = _ref.name;
+                                return _react2['default'].createElement(
+                                    'tr',
                                     { key: i },
-                                    _react2["default"].createElement(
-                                        "td",
+                                    _react2['default'].createElement(
+                                        'td',
                                         null,
-                                        fio
+                                        name
                                     )
                                 );
                             })
@@ -34721,55 +34717,126 @@ var EmployeesList = (function (_React$Component2) {
     }]);
 
     return EmployeesList;
-})(_react2["default"].Component);
+})(_react2['default'].Component);
 
-var Table = (function (_React$Component3) {
-    _inherits(Table, _React$Component3);
+var Table = (function (_React$Component2) {
+    _inherits(Table, _React$Component2);
 
-    function Table() {
+    function Table(props) {
         _classCallCheck(this, Table);
 
-        _get(Object.getPrototypeOf(Table.prototype), "constructor", this).apply(this, arguments);
+        _get(Object.getPrototypeOf(Table.prototype), 'constructor', this).call(this, props);
+        this.state = {
+            filterString: '',
+            filterByDepartments: false
+        };
     }
 
     _createClass(Table, [{
-        key: "render",
-        value: function render() {
-            var employees = this.props.employees;
+        key: 'refreshFilterString',
+        value: function refreshFilterString(event) {
+            var filterString = event.target.value.toLowerCase();
+            this.setState({ filterString: filterString });
+        }
+    }, {
+        key: 'checked',
+        value: function checked() {
+            var sortChecked = document.getElementById('sortDepart');
 
-            return _react2["default"].createElement(
-                "div",
-                { className: "row topBuffer" },
-                _react2["default"].createElement(
-                    "div",
-                    { className: "col-md-offset-1 col-sm-offset-1 col-md-10 col-sm-10" },
-                    _react2["default"].createElement(
-                        "div",
-                        { className: "indentTable" },
-                        _react2["default"].createElement("input", { type: "text", placeholder: "Фильтр",
-                            className: "buttonBorder filterStyle table-filters" }),
-                        _react2["default"].createElement(
-                            "div",
-                            { className: "flRight" },
-                            _react2["default"].createElement(
-                                "button",
-                                { type: "button", className: "btn btn-default buttonBorder buttonStyle",
-                                    "data-toggle": "modal",
-                                    "data-target": "#addElement" },
-                                "Добавить"
+            if (sortChecked.checked) {
+                this.state.filterByDepartments = true;
+            } else {
+                this.state.filterByDepartments = false;
+                this.state.filterString = '';
+                this.getFilteredData();
+            }
+        }
+    }, {
+        key: 'getFilteredData',
+        value: function getFilteredData() {
+            var _this3 = this;
+
+            if (this.state.filterString) {
+                var _props2 = this.props;
+                var employees = _props2.employees;
+                var departments = _props2.departments;
+
+                var sortArray = this.state.filterByDepartments ? departments : employees;
+                var displayedData = sortArray.filter(function (item) {
+                    return String(item.name).toLowerCase().indexOf(_this3.state.filterString) > -1;
+                });
+
+                if (this.state.filterByDepartments) {
+                    return {
+                        departments: displayedData,
+                        employees: this.props.employees
+                    };
+                } else {
+                    return {
+                        employees: displayedData,
+                        departments: this.props.departments
+                    };
+                }
+            } else {
+                return this.props;
+            }
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this4 = this;
+
+            var _getFilteredData = this.getFilteredData();
+
+            var employees = _getFilteredData.employees;
+            var departments = _getFilteredData.departments;
+
+            return _react2['default'].createElement(
+                'div',
+                { className: 'row topBuffer' },
+                _react2['default'].createElement(
+                    'div',
+                    { className: 'col-md-offset-1 col-sm-offset-1 col-md-10 col-sm-10' },
+                    _react2['default'].createElement(
+                        'div',
+                        { className: 'indentTable' },
+                        _react2['default'].createElement('input', { type: 'text', placeholder: 'Фильтр',
+                            className: 'buttonBorder filterStyle',
+                            onChange: function (event) {
+                                return _this4.refreshFilterString(event);
+                            }, id: 'filter' }),
+                        _react2['default'].createElement(
+                            'label',
+                            { htmlFor: 'sortDepart', className: 'table-filters' },
+                            _react2['default'].createElement('input', { type: 'checkbox', id: 'sortDepart', className: 'checkboxDepart',
+                                onClick: function () {
+                                    return _this4.checked();
+                                } }),
+                            'Сортировка по отделам'
+                        ),
+                        _react2['default'].createElement(
+                            'div',
+                            { className: 'flRight' },
+                            _react2['default'].createElement(
+                                'button',
+                                { type: 'button',
+                                    className: 'btn btn-default buttonBorder buttonStyle',
+                                    'data-toggle': 'modal',
+                                    'data-target': '#addElement' },
+                                'Добавить'
                             )
                         )
                     ),
-                    _react2["default"].createElement(
-                        "div",
-                        { className: "border" },
-                        this.props.departments.map(function (_ref2) {
+                    _react2['default'].createElement(
+                        'div',
+                        { className: 'border' },
+                        departments.map(function (_ref2) {
                             var name = _ref2.name;
                             var id = _ref2.id;
-                            return _react2["default"].createElement(
-                                "div",
+                            return _react2['default'].createElement(
+                                'div',
                                 { key: id },
-                                _react2["default"].createElement(EmployeesList, { employees: employees.filter(function (_ref3) {
+                                _react2['default'].createElement(EmployeesList, { employees: employees.filter(function (_ref3) {
                                         var departmentsId = _ref3.departmentsId;
 
                                         return departmentsId === id;
@@ -34783,7 +34850,7 @@ var Table = (function (_React$Component3) {
     }]);
 
     return Table;
-})(_react2["default"].Component);
+})(_react2['default'].Component);
 
 exports.Table = Table;
 

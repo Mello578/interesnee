@@ -17,6 +17,12 @@ body {
     margin-top: 20px;
 }
 
+.table-filters{
+    float: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
 .filterStyle {
     width: 251px;
     height: 45px;
@@ -157,4 +163,11 @@ h4{
 }
 .quantityEmployees{
     float: right;
+}
+
+.checkboxDepart{
+margin-top: 3px;
+    cursor:pointer;
+    width:19px;
+    height:19px;
 }
