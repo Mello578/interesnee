@@ -19,10 +19,8 @@ export class EmployeesList extends React.Component {
 
         let foundedOpenedDepartments = () => {
             let count = 0;
-            let searchOpenedDepartments = 'departments';
             for (let i = 0; i < this.props.departments.length; i++) {
-                searchOpenedDepartments += i;
-                if ($('#' + searchOpenedDepartments).hasClass('departmentOpened')) {
+                if ($('#departments' + i).hasClass('departmentOpened')) {
                     count++;
                 }
             }

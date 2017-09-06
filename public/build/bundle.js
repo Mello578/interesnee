@@ -34789,10 +34789,8 @@ var EmployeesList = (function (_React$Component) {
 
             var foundedOpenedDepartments = function foundedOpenedDepartments() {
                 var count = 0;
-                var searchOpenedDepartments = 'departments';
                 for (var i = 0; i < _this.props.departments.length; i++) {
-                    searchOpenedDepartments += i;
-                    if ($('#' + searchOpenedDepartments).hasClass('departmentOpened')) {
+                    if ($('#departments' + i).hasClass('departmentOpened')) {
                         count++;
                     }
                 }
