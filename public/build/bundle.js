@@ -34573,7 +34573,7 @@ exports = module.exports = __webpack_require__(86)(undefined);
 
 
 // module
-exports.push([module.i, "body {\r\n    background: #1b1b1b;\r\n}\r\n\r\n.workingField {\r\n    border: 1px solid #cccccc;\r\n    background: #f6f6f6;\r\n    margin-top: 70px;\r\n    padding-bottom: 40px;\r\n}\r\n\r\n.listEmployees {\r\n    margin-top: 50px;\r\n}\r\n\r\n.bufferTable, .topBuffer {\r\n    margin-top: 20px;\r\n}\r\n\r\n.table-filters{\r\n    float: none;\r\n    margin-left: 20px;\r\n    font-size: 18px;\r\n}\r\n\r\n.filterStyle {\r\n    width: 251px;\r\n    height: 45px;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 12px;\r\n    padding-left: 20px;\r\n    border: 1px solid #cccccc;\r\n\r\n}\r\n\r\n.buttonStyle {\r\n\r\n    font-size: 14px;\r\n    width: 177px;\r\n    height: 45px;\r\n    line-height: 5px;\r\n    background: #ff4342;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    color: white;\r\n    border-radius: 0;\r\n}\r\n\r\n.textFont {\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 34px;\r\n    font-weight: 600;\r\n}\r\n\r\n.tableCaption {\r\n    background: #ababab;\r\n}\r\n\r\n.field {\r\n    clear: both;\r\n    text-align: right;\r\n    line-height: 25px;\r\n    margin-top: 10px;\r\n}\r\n\r\nlabel {\r\n    float: left;\r\n    padding-right: 10px;\r\n\r\n}\r\n\r\n.modal-content {\r\n    float: left;\r\n    padding: 0px 40px 10px;\r\n    border: 2px solid #363636;\r\n    border-radius: 10px;\r\n}\r\n\r\n.alertField {\r\n    box-shadow: 0 0 10px #ff1842;\r\n}\r\n\r\n.iRight {\r\n    margin-right: 10px;\r\n}\r\n\r\n.flRight {\r\n    float: right;\r\n}\r\n\r\ntd {\r\n    width: auto;\r\n}\r\n\r\n#captionEmployees {\r\n    background: -moz-linear-gradient(#c7c7c7, #BDBDBD);\r\n    background: -webkit-gradient(linear, 0 0, 0 100%, from(#c7c7c7), to(#BDBDBD));\r\n}\r\n\r\n#captionQuantity {\r\n    width: 50%;\r\n    float: right;\r\n    margin-right: -20%;\r\n}\r\n\r\np {\r\n    margin: 0 63px;\r\n    float: right;\r\n}\r\n\r\n.indentTable {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.buttonDepartments {\r\n    width: 100%;\r\n    height: 40px;\r\n    text-align: left;\r\n    background: -moz-linear-gradient(#e4e4e4, #d5d5d5);\r\n    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e4e4e4), to(#d5d5d5));\r\n    border: none;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 16px;\r\n    font-weight: 600;\r\n    padding: 9px;\r\n}\r\n\r\n.imgDepart {\r\n    width: 20px;\r\n    height: 20px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.employees {\r\n    /*right: 100%;*/\r\n    margin-left: 3%;\r\n\r\n}\r\n\r\n.employeesHidden{\r\n    height: 0;\r\n    overflow: hidden;\r\n}\r\n\r\n.employeesOpened {\r\n    height: auto;\r\n    overflow: visible;\r\n    glyphicon : glyphicon-menu-down;\r\n}\r\n\r\n.border {\r\n    background: white;\r\n    border: 1px solid #cccccc;\r\n    overflow: hidden;\r\n}\r\n\r\ntd{\r\n    width: inherit;\r\n}\r\n\r\nh4{\r\n    margin: -2px 30px 10px;\r\n\r\n}\r\n.quantityEmployees{\r\n    float: right;\r\n}\r\n\r\n.checkboxDepart{\r\nmargin-top: 3px;\r\n    cursor:pointer;\r\n    width:19px;\r\n    height:19px;\r\n}", ""]);
+exports.push([module.i, "body {\r\n    background: #1b1b1b;\r\n}\r\n\r\n.workingField {\r\n    border: 1px solid #cccccc;\r\n    background: #f6f6f6;\r\n    margin-top: 70px;\r\n    padding-bottom: 40px;\r\n}\r\n\r\n.listEmployees {\r\n    margin-top: 50px;\r\n}\r\n\r\n.bufferTable, .topBuffer {\r\n    margin-top: 20px;\r\n}\r\n\r\n.table-filters{\r\n    float: none;\r\n    margin-left: 20px;\r\n    font-size: 18px;\r\n}\r\n\r\n.filterStyle {\r\n    width: 251px;\r\n    height: 45px;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 12px;\r\n    padding-left: 20px;\r\n    border: 1px solid #cccccc;\r\n\r\n}\r\n\r\n.buttonStyle {\r\n\r\n    font-size: 14px;\r\n    width: 177px;\r\n    height: 45px;\r\n    line-height: 5px;\r\n    background: #ff4342;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    color: white;\r\n    border-radius: 0;\r\n}\r\n\r\n.textFont {\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 34px;\r\n    font-weight: 600;\r\n}\r\n\r\n.tableCaption {\r\n    background: #ababab;\r\n}\r\n\r\n.field {\r\n    clear: both;\r\n    text-align: right;\r\n    line-height: 25px;\r\n    margin-top: 10px;\r\n}\r\n\r\nlabel {\r\n    float: left;\r\n    padding-right: 10px;\r\n\r\n}\r\n\r\n.modal-content {\r\n    float: left;\r\n    padding: 0px 40px 10px;\r\n    border: 2px solid #363636;\r\n    border-radius: 10px;\r\n}\r\n\r\n.alertField {\r\n    box-shadow: 0 0 10px #ff1842;\r\n}\r\n\r\n.iRight {\r\n    margin-right: 10px;\r\n}\r\n\r\n.flRight {\r\n    float: right;\r\n}\r\n\r\ntd, .employee {\r\n    width: auto;\r\n}\r\n\r\n#captionEmployees {\r\n    background: -moz-linear-gradient(#c7c7c7, #BDBDBD);\r\n    background: -webkit-gradient(linear, 0 0, 0 100%, from(#c7c7c7), to(#BDBDBD));\r\n}\r\n\r\n#captionQuantity {\r\n    width: 50%;\r\n    float: right;\r\n    margin-right: -20%;\r\n}\r\n\r\np {\r\n    margin: 0 63px;\r\n    float: right;\r\n}\r\n\r\n.indentTable {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.buttonDepartments {\r\n    width: 100%;\r\n    height: 40px;\r\n    text-align: left;\r\n    background: -moz-linear-gradient(#e4e4e4, #d5d5d5);\r\n    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e4e4e4), to(#d5d5d5));\r\n    border: none;\r\n    font-family: \"Noto Sans\", Arial, sans-serif;\r\n    font-size: 16px;\r\n    font-weight: 600;\r\n    padding: 9px;\r\n}\r\n\r\n.imgDepart {\r\n    width: 20px;\r\n    height: 20px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.employees {\r\n    /*right: 100%;*/\r\n    margin-left: 3%;\r\n\r\n}\r\n\r\n.employeesHidden{\r\n    height: 0;\r\n    overflow: hidden;\r\n}\r\n\r\n.employeesOpened {\r\n    height: auto;\r\n    overflow: visible;\r\n    glyphicon : glyphicon-menu-down;\r\n}\r\n\r\n.border {\r\n    background: white;\r\n    border: 1px solid #cccccc;\r\n    overflow: hidden;\r\n}\r\n\r\ntd{\r\n    width: inherit;\r\n}\r\n\r\nh4{\r\n    margin: -2px 30px 10px;\r\n\r\n}\r\n.quantityEmployees{\r\n    float: right;\r\n}\r\n\r\n.checkboxDepart{\r\nmargin-top: 3px;\r\n    cursor:pointer;\r\n    width:19px;\r\n    height:19px;\r\n}\r\n\r\nimg{\r\n    float: left;\r\n\r\n}", ""]);
 
 // exports
 
@@ -34768,6 +34768,8 @@ var _react = __webpack_require__(31);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _employee = __webpack_require__(185);
+
 var EmployeesList = (function (_React$Component) {
     _inherits(EmployeesList, _React$Component);
 
@@ -34787,7 +34789,7 @@ var EmployeesList = (function (_React$Component) {
         value: function toggleOpened(departmentsId) {
             var _this = this;
 
-            var foundedOpenedDepartments = function foundedOpenedDepartments() {
+            var quantityOpenedDepartments = function quantityOpenedDepartments() {
                 var count = 0;
                 for (var i = 0; i < _this.props.departments.length; i++) {
                     if ($('#departments' + i).hasClass('departmentOpened')) {
@@ -34813,7 +34815,7 @@ var EmployeesList = (function (_React$Component) {
                 sortChecked.checked = false;
             } else {
                 $('#' + buttonDepartmentsId).removeClass('departmentOpened');
-                !foundedOpenedDepartments() ? sortChecked.checked = true : sortChecked;
+                !quantityOpenedDepartments() ? sortChecked.checked = true : sortChecked;
             }
         }
     }, {
@@ -34899,11 +34901,7 @@ var EmployeesList = (function (_React$Component) {
                                 return _react2['default'].createElement(
                                     'tr',
                                     { key: i },
-                                    _react2['default'].createElement(
-                                        'td',
-                                        null,
-                                        name
-                                    )
+                                    _react2['default'].createElement(_employee.Employee, { name: name, employees: employees })
                                 );
                             })
                         )
@@ -34967,6 +34965,90 @@ function dataDownload(data) {
 }
 
 module.exports = dataDownload;
+
+/***/ }),
+/* 185 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Created by Mello on 06.09.2017.
+ */
+
+
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _react = __webpack_require__(31);
+
+var _react2 = _interopRequireDefault(_react);
+
+var Employee = (function (_React$Component) {
+    _inherits(Employee, _React$Component);
+
+    function Employee() {
+        _classCallCheck(this, Employee);
+
+        _get(Object.getPrototypeOf(Employee.prototype), 'constructor', this).call(this);
+        this.state = {
+            openEmployee: false
+
+        };
+    }
+
+    _createClass(Employee, [{
+        key: 'openEmploy',
+        value: function openEmploy() {
+            this.setState({
+                openEmployee: !this.state.openEmployee
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this = this;
+
+            var _props = this.props;
+            var name = _props.name;
+            var employees = _props.employees;
+
+            return _react2['default'].createElement(
+                'td',
+                { onClick: function () {
+                        return _this.openEmploy(name);
+                    } },
+                name,
+                _react2['default'].createElement(
+                    'div',
+                    { className: 'employee employeesHidden ' + (this.state.openEmployee ? 'employeesOpened' : '') },
+                    _react2['default'].createElement(
+                        'div',
+                        null,
+                        _react2['default'].createElement('img', { src: employees.filter(function (item) {
+                                return item.name === name;
+                            })[0].photo, alt: name, id: name })
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Employee;
+})(_react2['default'].Component);
+
+exports.Employee = Employee;
 
 /***/ })
 /******/ ]);

@@ -3,6 +3,7 @@
  */
 
 import React from "react";
+import {Employee} from './employee';
 
 export class EmployeesList extends React.Component {
 
@@ -17,7 +18,7 @@ export class EmployeesList extends React.Component {
 
     toggleOpened(departmentsId) {
 
-        let foundedOpenedDepartments = () => {
+        let quantityOpenedDepartments = () => {
             let count = 0;
             for (let i = 0; i < this.props.departments.length; i++) {
                 if ($('#departments' + i).hasClass('departmentOpened')) {
@@ -43,7 +44,7 @@ export class EmployeesList extends React.Component {
             sortChecked.checked = false;
         } else {
             $('#' + buttonDepartmentsId).removeClass('departmentOpened');
-            !foundedOpenedDepartments() ? sortChecked.checked = true : sortChecked;
+            !quantityOpenedDepartments() ? sortChecked.checked = true : sortChecked;
         }
     }
 
@@ -89,7 +90,7 @@ export class EmployeesList extends React.Component {
                         {
                             employees.map(({id, name}, i) =>
                                 <tr key={i}>
-                                    <td>{name}</td>
+                                    <Employee name = {name} employees = {employees}/>
                                 </tr>)
                         }
                         </tbody>

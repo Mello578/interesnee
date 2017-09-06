@@ -87,7 +87,7 @@ label {
     float: right;
 }
 
-td {
+td, .employee {
     width: auto;
 }
 
@@ -170,4 +170,9 @@ margin-top: 3px;
     cursor:pointer;
     width:19px;
     height:19px;
+}
+
+img{
+    float: left;
+
 }
