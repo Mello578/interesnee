@@ -134,17 +134,20 @@ p {
     /*right: 100%;*/
     margin-left: 3%;
 
+
 }
 
 .employeesHidden{
     height: 0;
     overflow: hidden;
+
 }
 
 .employeesOpened {
     height: auto;
     overflow: visible;
     glyphicon : glyphicon-menu-down;
+
 }
 
 .border {
@@ -172,7 +175,23 @@ margin-top: 3px;
     height:19px;
 }
 
-img{
+.photoOpenEmployee{
     float: left;
+    margin-right: 40px;
+}
 
+
+
+.nameEmployeesOpened {
+    height: auto;
+    overflow: visible;
+}
+
+.nameEmployeesHidden{
+    height: 0;
+    overflow: hidden;
+}
+
+.namePhone{
+    margin-top: 20px;
 }
